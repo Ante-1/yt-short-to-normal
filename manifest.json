@@ -1,0 +1,18 @@
+{
+    "name": "Youtube Short to normal player",
+    "version": "1.0.3",
+    "description": "switches the youtube short player with the normal youtube video player",
+    "manifest_version": 3,
+    "author": "Ante Schwender",
+    "content_scripts": [
+        {
+            "js": [
+                "index.js"
+            ],
+            "matches": [
+                "https://youtube.com/*",
+                "https://*.youtube.com/*"
+            ]
+        }
+    ]
+}
